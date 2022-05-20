@@ -31,9 +31,7 @@ public class Main {
 
     //method that counts the number of words in a string
     public static int countWords(String inputString) {
-
-
-
+        .
         String[] wordArray = inputString.split("[.,!? ]+");
         if (inputString.isEmpty()) {
 
@@ -68,7 +66,7 @@ public class Main {
         String shortestWord = wordArray[0];
 
         for (String s : wordArray) {
-            // System.out.println(shortestWord);
+
             //check length of word at current index against the longest word
             if (s.length() < shortestWord.length()) {
                 //replace the shortestWord value with the new shorter word
@@ -84,8 +82,6 @@ public class Main {
         Scanner userInput = new Scanner(System.in);
         System.out.println("Please enter a sentence: ");
         String inputString = userInput.nextLine();
-
-        //String inputString = "Hello! Welcome to Kenzie.  My name is Robert, and I'm here with my friend Waldo.  Have you met waldo?";
 
         //variables
         int countA = 0;
