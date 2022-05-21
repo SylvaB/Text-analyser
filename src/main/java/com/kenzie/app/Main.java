@@ -31,7 +31,6 @@ public class Main {
 
     //method that counts the number of words in a string
     public static int countWords(String inputString) {
-        .
         String[] wordArray = inputString.split("[.,!? ]+");
         if (inputString.isEmpty()) {
 
